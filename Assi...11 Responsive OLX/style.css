@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    /* background-color: #F8F1E7; */
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins";
+}
+
+.SEC1 {
+    position: sticky;
+    top: 0;
+    z-index: 1; /* Change this to a positive value */
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d8dfe0;
+    background-color: white;
+}
+header{
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.iconf{
+    padding-top: 15px;
+    /* width: 120px; */
+    /* height: 80px; */
+    /* border: 1px solid black; */
+}
+
+.icon{
+    text-align: center;
+    padding: 6px;
+    /* width: 40px; */
+    /* height: 40px; */
+    border-radius: 50%;
+    border: 1px solid rgb(247, 199, 199);
+    background: linear-gradient(180deg,rgb(247, 199, 199), white);
+}
+
+.dropyywithicon{
+    /* padding: 8px 8px; */
+    /* border: 1px solid black; */
+    font-family: "Poppins";
+    font-weight: 100;
+}
+
+.dropyywithicon i{
+    /* border: 1px solid black; */
+    padding: 8px 5px;
+    font-size: 18px;
+}
+.dropyywithicon select{
+    border: 1px solid #d8dfe0;
+    font-size: 16px;
+    padding: 8px 5px;
+}
+
+.inputwithicon{
+    display: flex;
+    gap: 0;
+}
+
+
+.inputwithicon input{
+    padding: 8px 5px;
+    border: 1px solid #d8dfe0;
+    width: 60vw;
+    /* margin-right: 0px; */
+    font-size: 16px;
+}
+
+.inputwithicon i{
+     padding: 12px 0px;
+     font-size: 18px;
+     color: white;
+     background-color: black;
+     height: 43px;
+     /* margin-left: 0px ; */
+     width: 45px;
+     text-align: center;
+
+}
+
+.anchor1 a{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+.anchor2{
+    border-top: 4px solid #23E5DB;
+    border-left: 4px solid #0845c9;
+    border-bottom: 4px solid #FFD85B;
+    border-left: 4px solid #c0c1c2;
+    border-radius: 20px;
+    padding: 2px 0px;
+    width: 80px;
+}
+
+.anchor2 a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    /* font-family: "Poppins"; */
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 12px;
+}
+
+.SEC3 .immi {
+    width: 90%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SEC3 .immi img{
+    width: 100%;
+}
+
+.SEC3 .hh4 {
+    /* text-decoration: overline; */
+    text-decoration: underline;
+
+}
+
+.hold{
+    width: 136px;
+    height: 160px;
+    /* width: auto; */
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.hold img{
+    /* border: 1px solid black; */
+    margin-bottom: 12px;
+}
+
+.SEC4 .category{
+    border: 1px solid crimson;
+    border-radius: 30px;
+    display: inline;
+    padding: 5px 18px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* .SEC4 .father{
+    border: 1px solid black;
+} */
+
+.SEC4 .card{
+    width: 315px;
+    height: 330px;
+    border: 1px solid #ccd5d6;
+    border-radius: px;
+}
+
+.SEC4 .card img{
+    border-bottom: 1px solid #ccd5d6;
+    overflow: hidden;
+    object-fit: cover;
+    height: auto;
+}
+
+.SEC4 .card .mobname{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.SEC4 .card .p{
+    font-size: 14px;
+}
+
+.SEC5{
+    border-bottom: 2px solid #c6cfd1;
+}
+
+.SEC5 .headp {
+    width: 25vw;
+    /* border: 1px solid black; */
+}
+
+.SEC5 .horiline{
+    width: 2px;
+    height: 140px;
+    background-color: #c6cfd1;
+}
+
+.SEC6 {
+    background-color: #EBEEEF;
+}
+
+
+.SEC6 li{
+    /* color: #ebeeef; */
+}
+
+.SEC6 .sociali{
+    text-align: center;
+    color: #557477;
+    font-size: 20px;
+    padding: 2px;
+    /* width: 58px; */
+    /* height: 58px; */
+    border-radius: 50%;
+    border: 3px solid  #557477;
+}
+
+.SEC7 {
+    background-color: #002f34;
+    color: white;
+}
+
+.SEC7 h6{
+    font-weight: bold;
+}
+
+.SEC7 h6, .SEC7 p {
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+
+
+@media (max-width:1024px) {
+
+    .SEC1{
+        position: static;
+        padding-bottom: 16px;
+        border-bottom: 0px solid  #d8dfe0 ;
+    }
+
+    .mainbox{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .anchor1{
+        border: 2px solid black;
+        padding: 3px 12px;
+        text-align: center;
+    }
+
+    .anchor2{
+        display: none;
+    }
+
+    .SEC3 .hh4{
+        text-align: center;
+        font-size: 30px;
+    }
+
+
+    .SEC3 .heavy{
+        justify-content: center !important;
+    }
+
+    .SEC4 .father {
+        justify-content: center;
+        gap: 28px;
+    }
+
+    .SEC5 {
+        justify-content: center !important;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .SEC5 .horiline{
+        display: none;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .SEC1{
+        position: static;
+        padding-bottom: 16px;
+        border-bottom: 0px solid  #d8dfe0 ;
+    }
+
+
+    header{
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .icon{
+        padding: 2px;
+    }
+
+    .iconf {
+        font-size: 20px !important;
+    }
+
+    .listpapa{
+        justify-content: center !important;
+        align-items: center !important;
+        font-size: 13px !important;
+    }
+    
+}
+
+
+
+@media (max-width:425px) {
+    .iconf {
+        font-size: 17px !important;
+    }
+
+    .SEC3 .immi img{
+        display: none;
+        /* width: 100%; */
+    }
+
+    .SEC5{
+        gap: 20px;
+    }
+
+    .SEC5 .mobimg{
+        width: 100%;
+    }
+    
+    .SEC5 .headp{
+        padding-top: 15px;
+        width: 100%;
+        margin-left: 8px;
+    }
+
+    .SEC5 .headp h1{
+        margin-bottom: 7px !important;
+    }
+
+    .SEC5 .stores{
+        margin-left: 8px;
+        width: 100%;
+    }
+
+    .SEC7 div{ 
+        /* padding: 0 !important; */
+        justify-content: center !important;
+    }
+}
+
+
+@media (max-width:375px) {
+    header{
+        gap: 25px;
+    }
+
+    .iconf {
+        font-size: 15px !important;
+    }
+
+    .SEC5 .stores{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .SEC5 .stores h6{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .SEC5 .stores div{
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .SEC6 {
+        display: flex;
+        flex-direction: column;
+        padding-left: 25px;
+    }
+}
+
+

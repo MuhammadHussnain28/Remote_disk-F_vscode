@@ -1,0 +1,491 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wholeheader {
+    /* border: 3px solid black; */
+    position: relative;
+    width: 1100px;
+    height: 212px;  /* Define a height for the container */
+    z-index: 1;  /* Ensures content is above the pseudo-element */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wholeheader::before {
+    content: " ";
+    background-image: url(https://images.unsplash.com/photo-1541462608143-67571c6738dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    z-index: -1;  /* Makes sure the pseudo-element is behind the content */
+    opacity: .1;
+}
+
+
+.saylaniimg{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid rgb(7, 7, 7); */
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.socialimgs img{
+    margin-right:18px ;
+}
+
+.mainheading{
+    font-family:'Signika', sans-serif;
+    font-size: 22px;
+    /* text-align: center; */
+    /* margin: 0; */
+}
+                                                   
+.portalbtn button{
+    /* padding: 10px 20px; */
+    border: 1px solid #0078d4;
+    width: 160px;
+    height: 32px;
+    background-color: white;
+    font-family:'Signika', sans-serif;
+    color: #0d6db7;
+    border-radius: 25px;
+    cursor:pointer;
+
+}
+
+.portalbtn button img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    color:  #0d6db7 ;
+}
+
+.portalbtn button span{
+    font-size: 16px;
+}
+
+.imgsheadingbutton{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.smallheading{
+    font-family: 'Signika' , sans-serif;
+    /* border: 1px solid yellow; */
+    text-align: center;
+    color: #886161;
+    margin-top: 25px;
+}
+    
+.buttonssss{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.buttonssss button{
+    font-family: 'Signika';
+    color: #0078d4 ;
+    width: 130px;
+    height: 35px;
+    border: 1px solid rgb(230, 235, 236);
+    cursor:pointer;
+}
+
+.parent1conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+
+.parent1conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent1conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent1conatiner select {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.parent2conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.parent2conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent2conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent2conatiner select {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+
+.parent3conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.parent3conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent3conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent3conatiner input {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.parent4conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.parent4conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent4conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent4conatiner input {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+
+.parent5conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.parent5conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent5conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent5conatiner input {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.parent6conatiner{
+    display: flex;
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.parent6conatiner div{
+    flex: 1;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+    margin-right: 30px;
+}
+
+.parent6conatiner label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.parent6conatiner select {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.parent6conatiner input {
+    width: 100%;
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.bigchild13{
+    
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+}
+
+.bigchild13 label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.bigchild13 input {
+    width: 97%;                 
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.bigchild14{
+    
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+}
+
+.bigchild14 label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.bigchild14 input {
+    width: 97%;                 
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.bigchild15{
+    width: 70% ;
+    /* border: 1px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #0078d4;
+    font-family: 'Signika',sans-serif;
+}
+
+.bigchild15 label {
+    /* border: 2px dotted yellow; */
+    display: block; 
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.bigchild15 input {
+    width: 97%;                 
+    border: 1px solid #8dc63f  ;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 350;
+}
+
+.upload-box {
+    width: 97px;
+    height: 102px;
+    border: 1px dashed #ccc; /* Dashed border */
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* text-align: center; */
+    font-family: 'Signika', sans-serif;
+    font-size: 15px;
+    color:black;
+    background-color: #f9f9f9; /* Light background color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-box:hover {
+    background-color: #f0f0f0; /* Slightly darker background on hover */
+}
+
+.upload-box input[type="file"] {
+    opacity: 0; /* Completely hide the input */
+    position: absolute;
+    cursor: pointer;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+    margin-right: 16px; /* Adjust spacing between upload and text */
+    /* border: 1px solid blue; */
+}
+
+.upload-container label {
+    font-size: 15px;
+    margin-bottom: 3px; /* Add space below the label */
+    font-family: 'Signika',sans-serif;
+    color: #0078d4; ;
+}
+
+.parent7conatiner {
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.child16 ol {
+    list-style-type: none;
+    font-size: 13px;
+    font-family: 'Signika',sans-serif;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    font-weight: 400;
+
+}
+
+.styled-line {
+    height: 1px; /* Thickness of the line */
+    background-color: #f0f0f0; /* Blue color */
+    opacity: .2;
+    margin: 45px 200px; /* Optional spacing */
+}
+
+.ouths{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Signika',sans-serif;
+    font-size: 14px;
+    color: #262626;
+}
+
+.submitbutton{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px ;
+    margin-bottom: 80px;
+    font-family: 'Signika',sans-serif;
+    /* border: 1px solid blue; */
+    background-color: #0d6db7 ;
+    padding: 10px  ;
+    font-size:18px ;
+    color: white;
+    border-radius: 5px;
+}

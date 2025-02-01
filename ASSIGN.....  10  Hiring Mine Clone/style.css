@@ -1,0 +1,246 @@
+
+/* nav{
+     background-color: #f4f3fc !important;
+} */
+
+
+.hoveronimg:hover {
+    cursor: pointer;
+}
+
+.hoveronimg:hover ~ body {
+    background-color:#212126; /* Dark background */
+    color: white; /* Optional: Change text color for contrast */
+}
+
+.SEC1 h1{
+    /* font-size: 80px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    #522fd4, #6bdcff 95.12% */
+    background: linear-gradient(106.43deg, #522fd4, #6bdcff 95.12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: -.02em;
+    
+}
+
+.SEC1 p{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: black;
+}
+
+.searchbarholder{
+    width: 510px;
+    position: relative;
+    /* padding: 4px 15px; */
+    /* border: 1px solid black; */
+}
+ 
+.searchbarholder input{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding: 4px 15px;
+    transition: all 0.4s ease;
+}
+
+.searchbarholder input:hover{
+    border: 1px solid black;
+}
+
+.popularh1{
+    color: #533af7;
+}
+.SEC2{
+    /* background: linear-gradient(to top, white, #e7e5f8); */
+    /* background: linear-gradient(to top, white 50%, #e7e5f8 100%); */
+
+    /* border: none;
+    padding-top: 8px; */
+}
+
+.buttonssssss{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+
+.buttonssssss button{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #6851ff;
+    border: 1px solid #aca0ff;
+    border-radius: 7px;
+    padding: 5px 13px ;
+    /* margin-left: 10px; */
+    background-color: white;
+    
+}
+
+.buttonssssss button:hover {
+    border-color: #6851ff; /* Changes border color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    transition: all 0.3s ease;
+
+}
+
+.SEC3 h1{
+    font-family: 'Roboto';
+    font-size: 48px;
+}
+
+
+/* .parentofcarousel{
+    transition: transform 0.3s ease;
+} */
+
+.firstslider:hover{
+    transform:translateY(-4px)
+}
+
+.firstslider{
+    width: 350px;
+    height: 280px;
+    border: 1px solid rgb(245, 205, 205);
+    transition: transform 0.3s ease;
+
+}
+
+.firstslider p{
+    font-family: 'Roboto';
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.Mlogoimg{
+    margin-left: 57px;
+}
+
+.daysp{
+    margin-top: 101px;
+}
+
+.viewsp{
+    margin-top: 160px;
+}
+
+.SEC4{
+    /* border: 2px solid black; */
+    margin-top: 105px !important;
+    font-family: 'Roboto';
+}
+
+.SEC4 h1{
+    font-size: 48px;
+}
+
+.easy1{
+    width: 280px;
+    height: 220px;
+    border: 1px solid #e0dcff;
+    padding-left: 20px;
+    padding-right: 20px ;
+    /* background: linear-gradient(180deg, #f0eeff, #fcfbff); */
+    /* background: linear-gradient(180deg, #f0eeff, #fcfbff); */
+    background: linear-gradient(180deg, #e0dcff, #fcfbff);
+    transition: all 0.5s ease;
+}
+
+.easy1:hover{
+    transform: translateY(-5px) translateZ(-10px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.bluehaeding{
+    color: #3c21eb;
+}
+
+.bannercont{
+    /* border: 1px solid black; */
+    padding-top: 70px !important;
+}
+
+.SEC5{
+    /* border: 2px solid black; */
+    margin-top: 105px !important;
+    font-family: 'Roboto';
+}
+
+.SEC5 h1{
+    font-size: 48px;
+}
+
+.countlesscont{
+    /* border: 2px solid yellow; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.arrowcont{
+    width: 89%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.bigimgcont{
+    width: 490px;
+    height: 300px;
+    /* border: 1px solid black; */
+    
+}
+.verticallinepapa{
+    width: 100px;
+    height: 420px;
+    /* border: 1px solid black; */
+}
+
+.vertical-line {
+    width: 2px; /* Thickness of the line */
+    height: 160px; 
+    background-color: #2c0feb; /* Color of the line */
+    /* margin: 0 20px;  */
+    /* border: 5px solid rgb(12, 12, 12); */
+  }
+
+.SEC6 {
+    height: 430px;
+    margin-top: 100px;
+    background-color: #4e3bdb;
+}
+
+.contain2{
+    width: 88%;
+    /* margin-top: 80px !important; */
+    /* border: 1px solid black; */
+    padding-top: 70px;
+}
+
+.horiline{
+    width: 98vw;
+    height: 1px;
+    background-color: white;
+}
